@@ -109,8 +109,6 @@ client.distube
             .setTitle("<:headphones:879518595602841630> Started Playing")
             .setDescription(`[${song.name}](${song.url})`)
             .addField("**Views:**", song.views.toString())
-            .addField("<:like:879371469132562552>", song.likes.toString())
-            .addField("<:dislike:879371468817973299>", song.dislikes.toString())
             .addField("**Duration:**", song.formattedDuration.toString())
             .addField("**Status**", status(queue).toString())
             .setThumbnail(song.thumbnail)
